@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">   <!--lang:language,en:english-->
+<head>
+    <meta charset="UTF-8">
+    <title>登录页面</title>
+</head>
+<body>
+    <form method="post" action="/login">
+        <table style="margin-left: 600px;margin-right: 200px;margin-top: 250px">
+            <tr>
+               <td>
+                   <label>用户名：</label>
+               </td>
+                <td>
+                    <input type="text" name="username" placeholder="#请填写用户名#"/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>密码：</label>
+                </td>
+               <td>
+                   <input type="password" name="password" placeholder="#请输入密码#">
+               </td>
+            </tr>
+            <tr>
+                <td style="text-align: right">
+                </td>
+                <td style="text-align: left">
+                    <button type="submit">登录</button>
+                    <button><a href="register.html">注册</a></button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
